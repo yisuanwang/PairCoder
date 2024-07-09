@@ -5,6 +5,7 @@
 # generate
 python demo.py
 ```
+If you want to test PairCoder on Colab, please use paircoder.ipynb. Enter your OpenAI API key into it, and you will be able to test it on HumanEval.
  
 ## ⚠️Notice
 Some models require an api key, such as chatGPT, ChatGLM and Minimax models. We give some experimental data for PairCoder in data/sample_result.txt
