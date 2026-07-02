@@ -1,0 +1,6 @@
+# Core (required) — the PairCoder framework only needs an OpenAI-compatible client.
+openai>=1.0.0
+httpx>=0.24.0
+
+# Optional, only for examples/parametric_3d.py (parametric 3D generation demo).
+# pip install trimesh

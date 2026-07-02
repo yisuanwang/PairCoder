@@ -1,0 +1,33 @@
+# Extra dependencies for reproducing the benchmarks (beyond the core `openai`,
+# `httpx` in the top-level requirements). Install what you need per benchmark.
+
+# Datasets (most benchmarks load from Hugging Face at run time)
+datasets>=2.14.0
+huggingface_hub>=0.20.0
+numpy
+Pillow
+
+# Charts / figures (Plot2Code, PandasPlotBench, ChartMimic, DaTikZ rendering)
+matplotlib>=3.7.0
+
+# Vector graphics (StarVector)
+cairosvg>=2.7.0
+
+# CAD / 3D geometry (GenCAD-Code, 3DCodeBench, P3D-Bench scoring)
+cadquery>=2.4.0
+trimesh>=4.0.0
+scipy>=1.10.0
+
+# Visual metric scorers (SSIM / CLIP / DINO / SigLIP-2) — GPU recommended
+scikit-image>=0.21.0
+torch>=2.0.0
+open_clip_torch>=2.20.0
+transformers>=4.40.0
+
+# System toolchains (install outside pip):
+#   HumanEval-X : g++, java (JDK), node
+#   VerilogEval, RTLLM : iverilog, vvp  (Icarus Verilog)
+#   WebApp1K   : Node.js + jest (via the webbench/ harness)
+#   DaTikZ     : pdflatex (TeX Live), ImageMagick `convert`
+#   3DCodeBench: Blender 4.2.3 (headless)
+#   P3D-Bench  : the `p3dbench` package (run from its repo root)

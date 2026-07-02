@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paircoder"
+version = "1.0.0"
+description = "PairCoder++: verification-grounded two-agent pair programming for code-driven multimodal and structured-artifact generation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "PairCoder Authors" }]
+dependencies = ["openai>=1.0.0", "httpx>=0.24.0"]
+
+[project.urls]
+Homepage = "https://github.com/yisuanwang/PairCoder"
+"Project Page" = "http://yisuanwang.github.io/PairCoder"
+
+[tool.setuptools]
+packages = ["paircoder"]

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling / editor caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+*.key
+
+# Run outputs / artifacts
+results*/
+outputs/
+*.log
+tok*.json
+*.stl
+*.step
+*.obj
+*.blend
+*.db
+# keep example/figure assets that are intentionally committed under assets/
+!assets/**
