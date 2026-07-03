@@ -3,9 +3,10 @@
 # PairCoder++: Pair Programming as a Universal Paradigm for Verified Code-Driven Multimodal and Structured-Artifact Generation
 
 <p>
-  <a href="https://aclanthology.org/2026.findings-acl.149/"><img src="https://img.shields.io/badge/Paper-ACL%202026%20Findings-b31b1b.svg" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2607.01883"><img src="https://img.shields.io/badge/arXiv-2607.01883-b31b1b.svg" alt="arXiv"></a>
   <a href="http://yisuanwang.github.io/PairCoder"><img src="https://img.shields.io/badge/Project-Page-1f6f64.svg" alt="Project Page"></a>
   <a href="https://github.com/yisuanwang/PairCoder"><img src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github" alt="Code"></a>
+  <a href="https://aclanthology.org/2026.findings-acl.149/"><img src="https://img.shields.io/badge/ACL%202026-Findings-4b8bbe.svg" alt="ACL 2026 Findings"></a>
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT">
 </p>
 
@@ -252,7 +253,8 @@ PairCoder++ extends our ACL 2026 Findings paper. Please cite:
 
 ## 🔗 Links
 
-- **Paper (ACL 2026 Findings):** https://aclanthology.org/2026.findings-acl.149/
+- **PairCoder++ paper (arXiv):** https://arxiv.org/abs/2607.01883
+- **Original PairCoder (ACL 2026 Findings):** https://aclanthology.org/2026.findings-acl.149/
 - **Project Page:** http://yisuanwang.github.io/PairCoder
 - **Code:** https://github.com/yisuanwang/PairCoder
 
