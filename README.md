@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT">
 </p>
 
-**Junhao Chen**<sup>1</sup>&emsp;
+[**Junhao Chen**](https://yisuanwang.github.io)<sup>1</sup>&emsp;
 **Xiang Li**<sup>2</sup>&emsp;
 **Mingjin Chen**<sup>3</sup>&emsp;
 **Boran Zhang**<sup>4</sup>&emsp;
@@ -239,7 +239,21 @@ PairCoder/
 
 ## 📌 Citation
 
-PairCoder++ extends our ACL 2026 Findings paper. Please cite:
+**PairCoder++** (arXiv:2607.01883):
+
+```bibtex
+@misc{chen2026paircoderpairprogramminguniversal,
+      title={PairCoder++: Pair Programming as a Universal Paradigm for Verified Code-Driven Multimodal and Structured-Artifact Generation}, 
+      author={Junhao Chen and Xiang Li and Mingjin Chen and Boran Zhang and Henghaofan Zhang and Yibin Xu and Yuehan Cui and Fangsheng Weng and Fei Ma and Qi Tian and Ruqi Huang and Hao Zhao},
+      year={2026},
+      eprint={2607.01883},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.01883}, 
+}
+```
+
+The original **PairCoder** (ACL 2026 Findings):
 
 ```bibtex
 @inproceedings{chen2026paircoder,
